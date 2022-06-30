@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste - bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid d-flex flex-column main-content align-items-center p-3 px-5 text-white">
+        <div class="col col-lg-6">
+            <div class="row w-100 mx-1">
+                <h1 class="col-6">Bem vindo, Fernando</h1>
+            </div>
+    
+            <div class="row w-100 d-flex align-items-center px-2">
+                <div class="col-8 d-flex flex-column justify-content-center text-center">
+                    <img src="assets/graph.svg" alt="">
+                    <p>Histórico de saldo</p>
+                </div>
+                <div class="col-4 text-center">
+                    <p class="mb-0">Saldo atual:</p>
+                    <p class="fs-3 fw-bold">R$200,00</p>
+                </div>
+            </div>
+    
+            <div class="container w-100 d-flex flex-column align-items-center">
+                <div class="row d-flex justify-content-between w-100 align-items-center">
+                    <span class="col-4 fw-bold">Despesas</span>
+                    <img class="col-4" src="assets/arrow-right.svg" width="15" height="16" alt="">
+                </div>
+    
+                <div
+                    class="row d-flex justify-content-center mt-2 px-3 py-1 border-top border-grey border-bottom align-items-center text-center w-100">
+                    <div class="col-8 d-flex flex-column justify-content-between">
+                        <div class="row">Mercado</div>
+                        <div class="row">R$200,00</div>
+                    </div>
+                    <div class="col-4">Hoje</div>
+                </div>
+    
+                <div
+                    class="row d-flex justify-content-center mt-0 px-3 py-1 border-bottom border-grey align-items-center text-center w-100">
+                    <div class="col-8 d-flex flex-column justify-content-between">
+                        <div class="row">Internet</div>
+                        <div class="row">R$89,00</div>
+                    </div>
+                    <div class="col-4">Ontem</div>
+                </div>
+    
+            </div>
+    
+            <div class="container w-100 mt-2 d-flex flex-column align-items-center">
+                <div class="row d-flex justify-content-between w-100 align-items-center">
+                    <span class="col-4 fw-bold">Recebimentos</span>
+                    <img class="col-4" src="assets/arrow-right.svg" width="15" height="16" alt="">
+                </div>
+    
+                <div
+                    class="row d-flex justify-content-center mt-2 px-3 py-1 border-top border-grey border-bottom align-items-center text-center w-100">
+                    <div class="col-8 d-flex flex-column justify-content-between">
+                        <div class="row">Salario</div>
+                        <div class="row">R$3200,00</div>
+                    </div>
+                    <div class="col-4">Hoje</div>
+                </div>
+    
+                <div
+                    class="row d-flex justify-content-center mt-0 px-3 py-1 border-bottom border-grey align-items-center text-center w-100">
+                    <div class="col-8 d-flex flex-column justify-content-between">
+                        <div class="row">Freelance</div>
+                        <div class="row">R$400,00</div>
+                    </div>
+                    <div class="col-4">Ontem</div>
+                </div>
+    
+            </div>
+    
+            <div class="container nav-wrap">
+                <nav class="navbar fixed-bottom bg-black">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav d-flex flex-row justify-content-around w-100">
+                            <li class="nav-item">
+                                <a class="nav-link active text-warning d-flex flex-column align-items-center" aria-current="page" href="#">
+                                    <img src="assets/income.svg" width="25rem" alt="">
+                                    <span>Recebimentos</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-warning d-flex flex-column align-items-center" aria-current="page" href="#">
+                                    <img src="assets/home.svg" width="25rem" alt="">
+                                    <span>Home</span>
+                                </a>                    
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-warning d-flex flex-column align-items-center" aria-current="page" href="#">
+                                    <img src="assets/expenses.svg" width="25rem" alt="">
+                                    <span>Despesas</span>
+                                </a>                    
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+    
+        </div>
+        
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
